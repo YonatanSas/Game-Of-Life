@@ -1,5 +1,4 @@
-package HomeExercises.Ex5;// Name: Yonatan Sasson
-// ID: 207600495
+// Name: Yonatan Sasson
 
 import javax.swing.*;
 import javax.swing.border.LineBorder;
