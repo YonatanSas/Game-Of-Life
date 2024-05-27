@@ -3,7 +3,7 @@
 This is an implementation of John Conway's Game of Life cellular automaton simulation in Java.
 The Game of Life is a zero-player game where the evolution of the game is determined by its initial state, requiring no further input from the user.
 
-**Features:**
+## Features:
 - Graphical user interface (GUI) for visualizing the Game of Life simulation.
 - Buttons to control the simulation: Go, Stop, Next, Clear, Faster, Slower.
 - Clickable grid of cells to manually toggle cell states.
@@ -11,7 +11,7 @@ The Game of Life is a zero-player game where the evolution of the game is determ
 - Adjustable speed of the simulation.
 - Resizable window to accommodate different grid sizes.
 
-**How to Run:**
+## How to Run:
 - Ensure that you have Java Development Kit (JDK) installed on your system.
 - Clone this repository or download the source code files.
 - Compile the Java source files using the following command: javac *.java
@@ -19,32 +19,32 @@ The Game of Life is a zero-player game where the evolution of the game is determ
 - The Game of Life simulation window will open, and you can interact with it using the provided buttons and by clicking on the cells.
 
 
-**Rules of the Game:**
+## Rules of the Game:
 The Game of Life follows these rules:
 1) Any live cell with fewer than two live neighbors dies (underpopulation).
 2) Any live cell with two or three live neighbors lives on to the next generation.
 3) Any live cell with more than three live neighbors dies (overpopulation).
 4) Any dead cell with exactly three live neighbors becomes a live cell (reproduction).
 
-**Classes:**
+## Classes:
 1) GOLMatrix: Represents the matrix of cells in the Game of Life simulation. It handles the logic for updating the cell states based on the rules of the game.
 2) GOLPanel: Represents the graphical user interface panel for the Game of Life simulation. It contains the buttons, labels, and the grid of cells. It interacts with the GOLMatrix to update the display based on the current state of the simulation.
 Main: The entry point of the program. It creates an instance of the GOLPanel and displays it in a JFrame. It also sets the preferred size of the window and centers it on the screen.
 
-**Customization:**
+## Customization:
 - You can adjust the size of the game grid by modifying the worldSize variable in the Main class. The default value is set to 50.
 - The preferred size of the window can be changed by modifying the preferredSize variable in the Main class. The default size is set to 800 pixels wide and 600 pixels high.
 
-**Dependencies:**
+## Dependencies:
 This implementation relies on the Java Swing library for creating the graphical user interface.
 
-**Contributing:**
+## Contributing:
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-**License:**
+## License:
 This project is licensed under the MIT License.
 
-**Acknowledgments:**
+## Acknowledgments:
 - This implementation is based on John Conway's Game of Life cellular automaton simulation.
 - The code structure and GUI design were inspired by various Game of Life implementations available online.
 
