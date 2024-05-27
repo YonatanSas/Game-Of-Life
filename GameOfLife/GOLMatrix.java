@@ -1,5 +1,5 @@
-package HomeExercises.Ex5;// Name: Yonatan Sasson
-// ID: 207600495
+//Name: Yonatan Sasson
+
 
 public class GOLMatrix {
 
