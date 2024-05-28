@@ -2,8 +2,10 @@
 
 This is an implementation of John Conway's Game of Life cellular automaton simulation in Java. The Game of Life is a zero-player game where the evolution of the game is determined by its initial state, requiring no further input from the user.
 
-## Features
+## Preview
+![GameOfLifeGif](https://github.com/YonatanSas/Game-Of-Life/assets/146161426/73149a1e-6bcf-4218-af3a-8c46014595f1)
 
+## Features
 - Graphical user interface (GUI) for visualizing the Game of Life simulation
 - Buttons to control the simulation: Go, Stop, Next, Clear, Faster, Slower
 - Clickable grid of cells to manually toggle cell states
