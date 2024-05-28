@@ -13,20 +13,6 @@ This is an implementation of John Conway's Game of Life cellular automaton simul
 - Adjustable speed of the simulation
 - Resizable window to accommodate different grid sizes
 
-## How to Run
-
-1. Ensure that you have Java Development Kit (JDK) installed on your system.
-2. Clone this repository or download the source code files.
-3. Compile the Java source files using the following command:
-   ```
-   javac *.java
-   ```
-4. Run the program using the following command:
-   ```
-   java Main
-   ```
-5. The Game of Life simulation window will open, and you can interact with it using the provided buttons and by clicking on the cells.
-
 ## Rules of the Game
 
 The Game of Life follows these rules:
