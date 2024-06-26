@@ -37,14 +37,8 @@ The Game of Life follows these rules:
 
 This implementation relies on the Java Swing library for creating the graphical user interface.
 
-## Contributing
-
-Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
-
-
 ## Acknowledgments
 
 - This implementation is based on John Conway's Game of Life cellular automaton simulation.
 - The code structure and GUI design were inspired by various Game of Life implementations available online.
 
-Feel free to customize the README file further based on your specific implementation details and preferences.
